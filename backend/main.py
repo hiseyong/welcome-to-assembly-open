@@ -11,10 +11,7 @@ import logging
 app = FastAPI()
 
 db_config = {
-    "host": "localhost",
-    "user": "root",
-    "password": "13579013579Ahn!",
-    "database": "welcometoassembly"
+#     DB 정보는 비공개...
 }
 
 app.add_middleware(
